@@ -10,5 +10,9 @@ public class ArrayMethods1
 	
 	public static void insertionSort(int [] list1)
 	{	
+		for (int i=1; 1< a.length; i++)
+		{
+			
+		}
 	}
 }
