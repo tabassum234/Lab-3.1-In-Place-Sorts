@@ -22,9 +22,9 @@ public class ArrayMethods1
 	
 	public static void selectionSort (double [] list1)
 	{
-		int temp = min;
+		int temp = list1[1];
 		int size = list1.length;
-		for (i = 0; i< size, i++)
+		for (i = 0; i< list1.length, i++)
 		{
 			min = i;
 		}
