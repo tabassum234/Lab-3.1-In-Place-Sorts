@@ -10,9 +10,29 @@ public class ArrayMethods1
 	
 	public static void insertionSort(int [] list1)
 	{	
-		for (int i=1; 1< a.length; i++)
+		for (int i=1; 1< list1.length; i++)
 		{
-			
+			int temp = list1[1];
+			int j;
+			for(j= i-1; j >=0 && temp < list1[j]; j--)
+				list1[j +1]= list1[1];
+			list1[j+1] = temp; 
 		}
 	}
+	
+	public static void selectionSort (double [] list1)
+	{
+		int temp = min;
+		int size = list1.length;
+		for (i = 0; i< size, i++)
+		{
+			min = i;
+		}
+		for (j = i +1 ; j < size; j++)
+		{
+			if List[j] < List[i]
+		}
+	}
+	
+	public static void bubbleSort (String[] list1)
 }
